@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="icon" href="./assets/icons/html-coding.png">
+    <title>Christos Papadopoulos | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <video width="150" height="150" autoplay muted>
+        <source src="./assets/images/Logo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        class="my-photo"
+        src="assets/images/myimage1.jpg"
+        alt="my-picture"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          “Hello, world! I’m a fresh face in the realm of web development,
+          brimming with enthusiasm and a thirst for innovation. My journey into
+          this dynamic field has just begun, and I’m thrilled to explore the
+          endless possibilities it offers. I’m passionate about creating
+          intuitive, user-friendly websites that not only look good but also
+          provide a seamless user experience. As a lifelong learner, I’m
+          constantly seeking out new technologies and techniques to stay at the
+          forefront of web development trends. I believe that every challenge is
+          an opportunity for growth, and I’m excited to tackle complex problems
+          and transform them into simple, elegant solutions. Join me as I embark
+          on this exciting journey into the world of web development!”
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+        <ul>
+          <img src="./assets/images/html5.png" alt="html logo">
+          <li>
+            As a web developer, I have a solid understanding of HTML (HyperText Markup Language). I am proficient in using various HTML elements to structure web pages effectively. I can create tables, forms, and embed multimedia like images and videos. I am also familiar with the concept of semantic HTML and can use appropriate tags to improve accessibility and SEO.
+          </li>
+          <img src="./assets/images/css3.png" alt="css logo">
+          <li>
+            My skills extend to CSS (Cascading Style Sheets), which I use to style HTML elements on a web page. I can effectively use selectors, properties, and values to control the layout and look of a website. I am adept at creating responsive designs using media queries and can leverage CSS frameworks like Bootstrap for rapid development.
+            </li>
+            <img src="./assets/images/js.png" alt="javascript logo">
+            <li>
+              I am proficient in JavaScript, a programming language that allows me to make web pages interactive. I can manipulate the DOM, handle events, and manage data using arrays and objects. I am also familiar with ES6 features and asynchronous JavaScript, including promises and async/await syntax. I can use libraries like jQuery and frameworks like React to build complex user interfaces.
+          </li>
+        </ul>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/HTML5_Badge.svg"
+            alt="HTML5 Logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/CSS3_logo.svg"
+            alt="CSS3 Logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/JavaScript_logo_2.svg"
+            alt="JavaScript Logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/bootstrap-svgrepo-com.svg"
+            alt="Bootstrap Logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/React-icon.svg"
+            alt="React Logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/Git_icon.svg"
+            alt="Git Logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    
+    <!-- Projects section -->
+    
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/expenseTracker.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/netflixClone.png"
+            alt="netflix-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Netflix Clone</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/greenyEarth.webp"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Greeny Earth</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder=" Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder=" Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder=" Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+
+    <div class="socials">
+      <a href="https://www.facebook.com/christospapx/" target="_blank"
+        ><img
+          src="assets/icons/facebooklogo.png"
+          alt="Facebook"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/chrispapx/" target="_blank"
+        ><img
+          src="assets/icons/Instagramlogo.png"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/christos-papadopoulos-573038100/" target="_blank"
+        ><img
+          src="assets/icons/linkedinlogo.webp"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/DepressedMeatball" target="_blank"
+        ><img 
+          src="assets/icons/githublogo.png" 
+          alt="Github" 
+          class="socicon" 
+          loading="lazy"
+      /></a>
+    </div>
+      
+    <!-- Scroll to top -->
+
+    <div class="arrowup">
+      <a href="#"
+        ><img 
+          src="assets/icons/arrowup.png" 
+          alt="UpArrow" 
+          class="sociconup" 
+          loading="lazy"
+      /></a>
+      </div>
+
+
+    <!-- Footer section -->
+
+    <footer>
+      <p class="copy">&copy; Copyright 2024</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://github.com/DepressedMeatball" target="_blank"
+        >Chris P. (aka Depressed Meatball)</a
+        >
+      </p>
+</footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
